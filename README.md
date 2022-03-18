@@ -7,7 +7,7 @@
 Bike Share
 
 ### Description
- In this python projetc, we use the bike share data to uncover bike share usage patterns in Chicago, New York and Washington, in USA.
+ In this python project, we use the bike share data to uncover bike share usage patterns in Chicago, New York and Washington, in the USA.
 
 ### Files used
 chicago.csv, new_york_city.csv, washington.csv
