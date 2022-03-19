@@ -169,7 +169,7 @@ def main():
         try:
             df = load_data(city, month, day)
         except:
-            print("oh no, invalid entry! Please enter a valid input")
+            print("Oh no, invalid entry! Please enter a valid input")
             continue
 
         time_stats(df)
