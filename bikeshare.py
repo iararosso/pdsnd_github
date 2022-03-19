@@ -21,7 +21,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input("Which month? All, January, February, March, April, May or June?").lower()
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday?").lower()
+    day = input("Which week day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday?").lower()
 
     print('-'*40)
     return city, month, day
