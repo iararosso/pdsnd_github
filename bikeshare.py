@@ -17,11 +17,11 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data from Motivate!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT:
-    city = input("Would you like to see data for Chicago, New York or Washington?").lower()
+    city = input("Would you like to see data for Chicago, New York City or Washington?").lower()
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input("Which month? All, January, February, March, April, May or June?").lower()
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day = input("Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday?").lower()
+    day = input("Which week day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday?").lower()
 
     print('-'*40)
     return city, month, day
@@ -169,7 +169,7 @@ def main():
         try:
             df = load_data(city, month, day)
         except:
-            print("oh no, invalid entry! Please enter a valid input")
+            print("Oh no, invalid entry! Please enter a valid input")
             continue
 
         time_stats(df)
