@@ -17,7 +17,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT:
-    city = input("Would you like to see data for Chicago, New York or Washington?").lower()
+    city = input("Would you like to see data for Chicago, New York City or Washington?").lower()
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input("Which month? All, January, February, March, April, May or June?").lower()
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
